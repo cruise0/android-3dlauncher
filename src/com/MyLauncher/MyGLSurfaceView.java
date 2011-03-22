@@ -291,8 +291,6 @@ public class MyGLSurfaceView extends GLSurfaceView implements
 		Collections.sort(mAllApps, new ResolveInfo.DisplayNameComparator(
 				mPackageManager));
 		
-		int colCount = 4;
-		
 		int totalLogoCount = mAllApps.size();
 		int oneRow = Math.min( totalLogoCount , RotateGroup.maxOneRow ); 
 		

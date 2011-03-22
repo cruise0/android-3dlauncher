@@ -6,11 +6,9 @@ import java.util.List;
 import javax.microedition.khronos.opengles.GL;
 
 import android.app.Activity;
-import android.app.ActivityManager;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.ConfigurationInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.opengl.GLSurfaceView;
