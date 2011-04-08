@@ -19,15 +19,6 @@ import java.util.Vector;
 
 import javax.microedition.khronos.opengles.GL10;
 
-/**
- * Group is a mesh with no mesh data itself but can contain one or more other
- * meshes.
- * 
- * @author Per-Erik Bergman (per-erik.bergman@jayway.com)
- * 
- */
-import com.MyLauncher.Projector;
-
 public class Group extends Mesh {
 	protected final Vector<Mesh> mChildren = new Vector<Mesh>();
 

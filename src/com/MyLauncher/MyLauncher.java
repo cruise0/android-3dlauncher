@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.microedition.khronos.opengles.GL;
 
+import se.jayway.opengl.tutorial.mesh.MatrixTrackingGL;
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;

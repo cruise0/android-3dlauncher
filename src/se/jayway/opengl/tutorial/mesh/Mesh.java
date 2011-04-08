@@ -22,9 +22,6 @@ import java.nio.ShortBuffer;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import com.MyLauncher.PressedHandler;
-import com.MyLauncher.Projector;
-
 import android.graphics.Bitmap;
 import android.opengl.GLUtils;
 

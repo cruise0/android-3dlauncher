@@ -11,6 +11,8 @@ import javax.microedition.khronos.opengles.GL10;
 
 import se.jayway.opengl.tutorial.mesh.Group;
 import se.jayway.opengl.tutorial.mesh.Mesh;
+import se.jayway.opengl.tutorial.mesh.PressedHandler;
+import se.jayway.opengl.tutorial.mesh.Projector;
 import se.jayway.opengl.tutorial.mesh.SimplePlane;
 import android.app.WallpaperManager;
 import android.content.ComponentName;
