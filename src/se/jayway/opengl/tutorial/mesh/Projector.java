@@ -14,11 +14,12 @@
  * limitations under the License.
  */
 
-package com.MyLauncher;
+package se.jayway.opengl.tutorial.mesh;
 
 import android.opengl.Matrix;
 
 import javax.microedition.khronos.opengles.GL10;
+
 
 /**
  * A utility that projects

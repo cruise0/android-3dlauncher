@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.MyLauncher;
+package se.jayway.opengl.tutorial.mesh;
 
 import android.util.Log;
 
@@ -31,6 +31,8 @@ import javax.microedition.khronos.opengles.GL10Ext;
 import javax.microedition.khronos.opengles.GL11;
 import javax.microedition.khronos.opengles.GL11Ext;
 
+import com.MyLauncher.MatrixStack;
+
 /**
  * Allows retrieving the current matrix even if the current OpenGL ES
  * driver does not support retrieving the current matrix.
@@ -40,7 +42,7 @@ import javax.microedition.khronos.opengles.GL11Ext;
  * as compared to the way the math is implemented by the OpenGL ES
  * driver.
  */
-class MatrixTrackingGL implements GL, GL10, GL10Ext, GL11, GL11Ext {
+public class MatrixTrackingGL implements GL, GL10, GL10Ext, GL11, GL11Ext {
     private GL10 mgl;
     private GL10Ext mgl10Ext;
     private GL11 mgl11;

@@ -1,4 +1,4 @@
-package com.MyLauncher;
+package se.jayway.opengl.tutorial.mesh;
 
 public interface PressedHandler {
 	

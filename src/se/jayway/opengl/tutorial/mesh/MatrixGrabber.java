@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package com.MyLauncher;
+package se.jayway.opengl.tutorial.mesh;
 
 import javax.microedition.khronos.opengles.GL10;
+
 
 class MatrixGrabber {
     public MatrixGrabber() {
